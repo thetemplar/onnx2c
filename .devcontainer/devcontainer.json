@@ -1,0 +1,17 @@
+{
+	"name": "Ubuntu",
+	"image": "crafeacodev.azurecr.io/acodev_deployment:dev0.0.10",
+	"remoteUser": "vscode",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-python.pylint",
+				"dakara.dakara-foldplus",
+				"zxh404.vscode-proto3",
+				"eamodio.gitlens",
+				"GrapeCity.gc-excelviewer"
+			]
+		}
+	}
+}
